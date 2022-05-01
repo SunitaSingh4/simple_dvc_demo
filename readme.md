@@ -12,7 +12,27 @@ create env
  create requirements.txt
  .............bash
  pip install -r requirements.txt
+ .....
 
+ Download the dataset winequality.csvconda
+.....bash
+ git init
+ dvc init
+ ....bash
+ dvc add data_given/winequality.csv
+....bash
+ git add .
+....bash
+ git commit -m "first commit"
  
+ online updates for readme
+ ....bash
+ git add . && git commit -m "update readme.md" 
+ ....bash
+ $ git branch _M main
+ ....bash
+ $ git push origin main
+
+
 
 
